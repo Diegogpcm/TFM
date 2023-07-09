@@ -30,9 +30,14 @@ Repositorio para reproducir los resultados de mi Trabajo de Fin de Máster, "Per
       - Copiar en text-generation-webui/training/formats el archivo que se incluye en este repositorio en la carpeta placeholder text-generation-webui/training/formats, que se ha desarrollado en el TFM especificamente para realizar el LoRA.
       - Generar la interfaz de usuario de text-generation-webui accediendo a la carpeta con la terminal y ejecutando el comando `python3 server.py`.
       - Acceder a la interfaz pegando la dirección que aparezca en la terminal en un buscador.
-      - Cargar el modelo que se desee desde la pestaña de modelos.
-      - Acceder a la pestaña de 'training', donde si todo se ha realizado correctamente debería permitir seleccionar 'gigaword_vicuna.json' como dataset y 'custom-vicuna-format.json' como formato.
-      - Darle al botón 'start training'.
+      - Cargar el modelo que se desee desde la pestaña 'Model'.
+      - Acceder a la pestaña de 'Training', donde si todo se ha realizado correctamente debería permitir seleccionar `gigaword_vicuna.json` como dataset y `custom-vicuna-format.json` como formato.
+      - Darle al botón 'Start LoRA Training'.
+   
+      ![image](https://github.com/Diegogpcm/TFM/assets/95076543/a551aaae-f4ba-4897-ae25-5a2aaa24fa38)
+      ![image](https://github.com/Diegogpcm/TFM/assets/95076543/29116589-035a-43a3-995b-2d8bb54af977)
+
+
 
   
 
