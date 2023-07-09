@@ -24,15 +24,15 @@ Repositorio para reproducir los resultados de mi Trabajo de Fin de Máster, "Per
 9. Para analizar los modelos, ejecutar los notebooks `DistilBART_analysis.ipynb` y `LLM_analysis.ipynb`. El primero realiza la inferencia a la vez que el análisis, mientras que el segundo carga los `output-*.csv`. Ambos calculan las métricas BLEU y ROUGE.
 
 10. Para realizar el LoRA, seguir los siguientes pasos:
-  - Copiar el modelo que se desea fine-tunear en text-generation-webui/models.
-  - Ejecutar el notebook `generate_train_dataset.csv`
-  - Copiar el archivo de salida, `gigaword_vicuna.json`, en text-generation-webui/training/datasets.
-  - Copiar en text-generation-webui/training/formats el archivo que se incluye en este repositorio en la carpeta placeholder text-generation-webui/training/formats, que se ha desarrollado en el TFM especificamente para realizar el LoRA.
-  - Generar la interfaz de usuario de text-generation-webui accediendo a la carpeta con la terminal y ejecutando el comando `python3 server.py`.
-  - Acceder a la interfaz pegando la dirección que aparezca en la terminal en un buscador.
-  - Cargar el modelo que se desee desde la pestaña de modelos.
-  - Acceder a la pestaña de 'training', donde si todo se ha realizado correctamente debería permitir seleccionar 'gigaword_vicuna.json' como dataset y 'custom-vicuna-format.json' como formato.
-  - Darle al botón 'start training'.
+   - Copiar el modelo que se desea fine-tunear en text-generation-webui/models.
+   - Ejecutar el notebook `generate_train_dataset.csv`
+   - Copiar el archivo de salida, `gigaword_vicuna.json`, en text-generation-webui/training/datasets.
+   - Copiar en text-generation-webui/training/formats el archivo que se incluye en este repositorio en la carpeta placeholder text-generation-webui/training/formats, que se ha desarrollado en el TFM especificamente para realizar el LoRA.
+   - Generar la interfaz de usuario de text-generation-webui accediendo a la carpeta con la terminal y ejecutando el comando `python3 server.py`.
+   - Acceder a la interfaz pegando la dirección que aparezca en la terminal en un buscador.
+   - Cargar el modelo que se desee desde la pestaña de modelos.
+   - Acceder a la pestaña de 'training', donde si todo se ha realizado correctamente debería permitir seleccionar 'gigaword_vicuna.json' como dataset y 'custom-vicuna-format.json' como formato.
+   - Darle al botón 'start training'.
 
   
 
