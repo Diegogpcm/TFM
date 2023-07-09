@@ -1,0 +1,4 @@
+{
+    "instruction,output": "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.\nUSER: %instruction%\nASSISTANT: %output%",
+    "instruction,input,output": "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.\nUSER: %instruction%: %input%\nASSISTANT: %output%"
+}
