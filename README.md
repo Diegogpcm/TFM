@@ -13,5 +13,11 @@ Repositorio para reproducir los resultados de mi Trabajo de Fin de Máster, "Per
 
 5. Ejecutar el notebook 'download_gigaword.ipynb'. Este notebook descarga gigaword y genera dos archivos .csv, uno con el train y uno con el test.
 
-6. Si se desea repetir la inferencia, ejecutar los notebooks 'DistilBART_inference.ipynb' y 
+6. Si se desea repetir la inferencia con los LLMs, ejecutar los scripts 'LLM-gigaword_inference.py' y 'LLM-messages_inference.py'. Se recomienda hacerlo desde la terminal, navegando hasta el directorio y usando el comando 'python3'. En los scripts están incluidos parámetros como el prompt o la cantidad de mensajes a resumir, por si se desean modificar. El output de estos scripts está incluido en el repositorio; se trata de todos los archivos .csv que comienzan con 'output'.
+
+7. Para analizar los modelos, ejecutar los notebooks 'DistilBART_analysis.ipynb' y 'LLM_analysis.ipynb'. El primero realiza la inferencia a la vez que el análisis, mientras que el segundo carga los 'output-*.csv'. Ambos calculan las métricas BLEU y ROUGE.
+
+8. Para realizar el LoRA, es necesario copiar el modelo que se desea fine-tunear en text-generation-webui/models. Después, se ejecuta el notebook 'generate_train_dataset.csv' y el archivo de salida, 'gigaword_vicuna.json', se copia en text-generation-webui/training/datasets. También es necesario que esté en text-generation-webui/training/formats el archivo que se incluye en este repositorio, que se ha desarrollado en el TFM especificamente para realizar el LoRA.
+
+9. 
 
