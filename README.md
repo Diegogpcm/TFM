@@ -13,7 +13,7 @@ Repositorio para reproducir los resultados de mi Trabajo de Fin de Máster, "Per
 
 5. Desde una terminal, navegar hasta la carpeta llama.cpp y convertir los modelos a float16 con el comando `python3 convert.py models/modelo/`.
 
-6. Desde la misma terminal, "cuantizarlo" al formato deseado con el comando adecuado.
+6. Desde la misma terminal, "cuantizarlo" al formato deseado con el comando adecuado. En el trabajo, los modelos 7b se han cuantizado en 4 y 8 bits y los modelos 13b en 4 bits.
    - Para 8 bits: `./quantize ./models/modelo/ggml-model-f16.bin ./models/modelo/ggml-model-q4_0.bin q4_0`
    - Para 4 bits: `./quantize ./models/modelo/ggml-model-f16.bin ./models/modelo/ggml-model-q8_0.bin q8_0`
 
