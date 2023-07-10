@@ -3,7 +3,7 @@ Repositorio para reproducir los resultados de mi Trabajo de Fin de Máster, "Per
 
 ## Pasos a seguir
 
-1. Descargar el repositorio llama.cpp y sustituirlo por la carpera vacía. Si se desea reproducir el LoRA, hacer lo mismo con text-generation-webui.
+1. Descargar el repositorio llama.cpp y sustituirlo por la carpeta vacía. Si se desea reproducir el LoRA, hacer lo mismo con text-generation-webui.
 
 2. Hacer la build de `llama.cpp`. Para ello, navegar desde la terminal a la carpeta `llama.cpp` y ejecutar el comando `make` (es necesario usar Linux o MacOS, en Windows se recomienda usar WSL).
 
